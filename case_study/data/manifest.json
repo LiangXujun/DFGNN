@@ -1,0 +1,42 @@
+[
+  {
+    "file": "case_study/data/BCM/differential_expression.tsv",
+    "bytes": 3156433,
+    "sha256": "54fad01f009f0fffc275df3d0a24bcb7d981112c702fbdd28a953036d2aa0a58"
+  },
+  {
+    "file": "case_study/data/BCM/positive_training_edges.csv",
+    "bytes": 37286,
+    "sha256": "837b09a54a81e66f38820766aae3235f2bcdf2080e58fe111eb466114c289277"
+  },
+  {
+    "file": "case_study/data/BCM/predictions_MT.csv",
+    "bytes": 1463466,
+    "sha256": "4dea64bf0ae89cfa6db39200f8fe9de9c68cca478a333fc2c6e833468e92047f"
+  },
+  {
+    "file": "case_study/data/BCM/predictions_PT.csv",
+    "bytes": 1463232,
+    "sha256": "9e21a5d64f01b9c832475ab9b8250bc308348a492e4310a6fdbd30b3a76276f8"
+  },
+  {
+    "file": "case_study/data/MM/differential_expression.tsv",
+    "bytes": 2297790,
+    "sha256": "a701d31eb018141672232b4c639e346cf73f45e32197b4ea5a6d88461f8a3236"
+  },
+  {
+    "file": "case_study/data/MM/positive_training_edges.csv",
+    "bytes": 55753,
+    "sha256": "c24f73ac99f3f993c0e036ccb0acf4f85950b9a709902eda6bb143cb5c5e3399"
+  },
+  {
+    "file": "case_study/data/MM/predictions_no_resp.csv",
+    "bytes": 2546200,
+    "sha256": "fddbae7ac808bba7a38e8567db28de919d1723f062eb32322f5cf1db480ffe8c"
+  },
+  {
+    "file": "case_study/data/MM/predictions_resp.csv",
+    "bytes": 2545956,
+    "sha256": "8d1a06ca67c0968e088c12dedba19f68527791a5be8792bd897fe3ba1fe2649b"
+  }
+]

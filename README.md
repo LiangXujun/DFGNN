@@ -1,0 +1,35 @@
+# DFGNN
+
+Dual-channel Fusion Graph Neural Network (DFGNN) for gene regulatory interaction prediction and regulator prioritization. This repository provides benchmark training code and two case studies: breast cancer metastasis (BCM) and multiple myeloma (MM).
+
+## Installation
+
+Tested with Python 3.12. Install the dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+## Training
+
+The files required for training are available on 10.5281/zenodo.23312470. Download and extract them into `benchmark_data/`, preserving the dataset directory structure. Each dataset requires `BL--ExpressionData.csv`, `TF.csv`, `Target.csv`, and `Label.csv`.
+
+For example, generate data splits and train DFGNN on the Specific hESC TFs+500 dataset:
+
+```bash
+python split_data.py --data-root ./benchmark_data --network-types Specific --datasets hESC --gene-counts 500
+python train_dfgnn.py --data-root ./benchmark_data --network-types Specific --datasets hESC --gene-counts 500
+```
+
+Training results are saved in `results/benchmark/`. Use `--help` to see other options.
+
+## Case studies
+
+Case-study inputs are included in `case_study/data/`. Run the analyses from the repository root:
+
+```bash
+python case_study/analyze_bcm.py
+python case_study/analyze_mm.py
+```
+
+Results are saved in `results/BCM/` and `results/MM/`. Pathway libraries are downloaded on the first run and cached locally.

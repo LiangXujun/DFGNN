@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.3.0
+scipy==1.16.2
+matplotlib==3.9.2
+networkx==3.3
+gseapy==1.1.11
+scikit-learn==1.7.1
+torch==2.3.0
+torch-geometric==2.7.0
